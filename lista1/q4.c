@@ -25,9 +25,10 @@ void inverte(int l[], int m){
     int aux;
     int k = 0;
 
-    while (j > m/2){
+    while (k < m/2){
         aux = l[k];
         l[k] = l[m - k - 1];
+        l[m - k - 1] = aux;
         k++;
     }
 
