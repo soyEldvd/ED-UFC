@@ -23,14 +23,11 @@ int main (){
 
 void inverte(int l[], int m){
     int aux;
-    int j = m - 1; 
     int k = 0;
 
     while (j > m/2){
         aux = l[k];
-        l[k] = l[j];
-        l[j] = aux;
-        j--;
+        l[k] = l[m - k - 1];
         k++;
     }
 
