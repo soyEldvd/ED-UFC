@@ -1,12 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
-Considere um vetor de inteiros L de
-tamanho 2n que contenha n números ímpares e n números pares.
-L: 16 19 41 8 42 39 33 22 29 48
-Escreva um programa que coloca os númros pares nas posições pares e o ímpares nas posições
-ímpares.
-*/
+
 void paridade();
 int main (){
     int m;
