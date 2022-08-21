@@ -26,7 +26,7 @@ void troca(int l[], int m){
     int aux;
     int k = 0;
 
-    while (j >= m){
+    while (j >= 0){
         aux = l[j + 1];
         l[j + 1] = l[j];
         l[j] = aux;
