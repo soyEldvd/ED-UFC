@@ -9,7 +9,7 @@ Escreva um programa que coloca os númros pares nas posições pares e o ímpare
 */
 void paridade();
 int main (){
-    int m, n;
+    int m;
     int i = 0;
 
     printf("digite o tamanho do vetor: ");

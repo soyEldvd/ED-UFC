@@ -3,7 +3,7 @@
 
 void inverte();
 int main (){
-    int m, n;
+    int m;
     int i = 0;
 
     printf("digite o tamanho do vetor: ");
