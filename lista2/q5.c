@@ -30,8 +30,10 @@ void diff(int l[], int n){
         }
         else {
             if(l[j] > maior){
-                menor = maior;
                 maior = l[j];
+            }
+            if(l[j] < menor){
+                menor = l[j];
             }
         }
         
