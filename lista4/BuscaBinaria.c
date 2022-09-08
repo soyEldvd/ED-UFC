@@ -25,7 +25,7 @@ int main (){
     printf("diigte a chave: " );
     scanf("     %d", &chave);
 
-    printf("a chave esta na posicao %d do vetor", buscaTri(l, fim, chave));
+    printf("a chave esta na posicao %d do vetor", buscaBi(l, fim, chave));
 
     return 0;
 }
