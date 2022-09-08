@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int check();
-int buscaTri();
+int buscaBi();
 
 int i;
 int main (){
@@ -30,7 +30,7 @@ int main (){
     return 0;
 }
 
-int buscaTri(int l[], int fim, int chave){
+int buscaBi(int l[], int fim, int chave){
     int inicio = 0;
     int meio = (inicio + fim) / 2;
 
