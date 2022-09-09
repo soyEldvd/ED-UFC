@@ -31,8 +31,9 @@ int main (){
 }
 
 int buscaBi(int l[], int fim, int chave){
-    int inicio = 0;
+    int inicio = 0; //  0 1 2 3 | 4 5 6 7 
     int meio = (inicio + fim) / 2;
+    //3
 
     while(inicio <= fim){
         if(chave == l[meio]){
