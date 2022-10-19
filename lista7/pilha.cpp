@@ -1,3 +1,18 @@
+/*
+    PILHAS - ESTRUTURAS DE DADOS
+        PILHAS são um tipo de estrutura de dados que simulam  uma pilha na vida real, onde para colocar um elemento na pilha,
+        tal ação só pode ser feita no topo da pilha, o mesmo é válido para retirar elementos.
+
+    REQUISITOS PARA PILHA
+        Para pensar nos requisitos de uma pilha devemos imaginar um topo, onde será feita a remoçao e a inserção de elementos
+        também temos que ter um tamanho máximo para pilha, pois não existem pilhas infinitas.
+    
+    OPERAÇÕES NAS PILHAS
+        Numa pilha, nós podemos colocar valores ou INSERIR e também retirá-los REMOVER
+*/
+
+
+
 #include <cstdio>
 
 class pilha{
@@ -39,10 +54,8 @@ class pilha{
             }
         }
         
-        void vazia(){
-            if(topo == -1 && count == 0){
-                printf("ta vazia\n");                
-            }
+        int vazia(){
+            return count == 0;
         }
     
 };
@@ -53,9 +66,9 @@ int main(){
     pilha a(tamanho); //chamando o método na função principal
     
     
-    for(i = 0; i < tamanho; i++){
+    for(i = 0; i < 10; i++){
         a.empilhar(i);//inserindo valores na pilha
     }
-    
+
     return 0;
 }
